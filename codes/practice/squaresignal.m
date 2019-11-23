@@ -1,0 +1,16 @@
+clc;
+clear all;
+t = 0:0.01:10;
+subplot(3, 1, 1);
+f1 = square(t);
+plot(t, f1);
+axis([0, 10, -1.2, 1.2]);
+set(gcf, 'color', 'w');
+subplot(3, 1, 2);
+f1 = square(2*pi*t);
+plot(t, f1);
+axis([0, 10, -1.2, 1.2]);
+subplot(3, 1, 3);
+f1 = square(2*pi*t, 80);
+plot(t, f1);
+axis([0, 10, -1.2, 1.2]);

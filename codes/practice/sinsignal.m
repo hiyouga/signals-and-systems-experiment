@@ -1,0 +1,11 @@
+clc;
+clear all;
+t = -8:0.01:8;
+k = 2;
+w = 1;
+a = pi / 6;
+f = k * sin(w*t+a);
+plot(t, f);
+grid;
+xlabel('t');
+ylabel('f(t)');

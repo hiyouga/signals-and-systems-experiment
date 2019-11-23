@@ -1,0 +1,10 @@
+clc;
+clear all;
+t = 0:0.001:10;
+k = 1;
+a = 0.5;
+f = k * exp(-a*t);
+plot(t, f);
+grid;
+xlabel('t');
+ylabel('f(t)');
